@@ -1,5 +1,6 @@
 data aws_availability_zones "azs"{
 }
+123
 resource aws_vpc "vpc1"{
     cidr_block=var.v_vpc_cidr
 	tags = {
