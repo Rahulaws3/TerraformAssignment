@@ -3,6 +3,7 @@ module "my_vpc"{
 	v_vpc_cidr="192.168.0.0/16"
 	v_vpc_id=module.my_vpc.v_vpc_id
 	v_sn1=module.my_vpc.v_sn1
+		/*test*/
 }
  module "my_app_res"{
    source="../modules/elb-asg-sg"
